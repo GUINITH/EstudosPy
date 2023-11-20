@@ -1,5 +1,5 @@
 # Repositório de Estudos em Python
-![Python](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3APython-logo-notext.svg&psig=AOvVaw0Y7Eqt2sDinA_lXL3hvFJx&ust=1700610750419000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCFzO7i04IDFQAAAAAdAAAAABAE)
+![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png)
 Bem-vindo ao meu repositório de estudos em Python! Este é um espaço dedicado ao meu aprendizado e prática da linguagem de programação Python. Aqui, você encontrará uma coleção de códigos, projetos e anotações relacionadas ao meu progresso no estudo de Python.
 
 ## Estrutura do Repositório

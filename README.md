@@ -18,5 +18,5 @@ Este repositório é pessoal e destinado apenas aos meus estudos, portanto, não
 
 Caso tenha alguma pergunta ou sugestão, sinta-se à vontade para entrar em contato comigo.
 
-- Email: seu@email.com
-- LinkedIn: [Seu Nome](link_do_seu_perfil_linkedin)
+- Email: fellipeguilherme37@gmail.com
+- LinkedIn: [Guilherme Felipe](https://www.linkedin.com/in/guilherme-felipe-dos-santos-b74b4721a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdBsU7X1%2FSyi7QvlvOUpB0Q%3D%3D)

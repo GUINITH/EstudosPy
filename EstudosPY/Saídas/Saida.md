@@ -5,4 +5,4 @@
 * A função de saída em tela no Python é o `print()`. Colocamso entre parênteses os dados que serão fornecidos ao usuário.
 
 `print("Olá mundo!") #Exibe a frase "Olá mundo! no terminal"`
-veja o exemplo de código na pasta Saídas/saidas.py
+veja o exemplo de código na pasta [saida.py](C:\Users\guigu\OneDrive\Documents\GitHub\EstudosPy\EstudosPY\Saídas\saida.py)

@@ -34,6 +34,15 @@ print(negacao1)
 
 negacao2 = not 5!= 6
 print(negacao2)
+#Output: False
 
+#Disjunção lógica:
+
+dia_final = int(input("Digite o dia do mês para encerrar a promoção: "))
+dia_atual = int(input("Digite o dia do mês para encerrar a promoção: "))
+estoque_produtos = int(input("Digite o dia do mês para encerrar a promoção: "))
+
+acabou = dia_atual > dia_final or estoque_produtos == 0
+print(acabou)
 
 

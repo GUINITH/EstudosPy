@@ -6,21 +6,22 @@ Com isso, podemos evitar repetição de código, tornando nossos códigos mais e
 1.1.1. Sintaxe básica
 Em Python, podemos criar funções com o comando def, e em seguida damos um nome para nossa função.
 
-def minha_primeira_funcao():
-	print('Olá Mundo')
+``def minha_primeira_funcao():
+	print('Olá Mundo')``
+
 Se você executar o código acima, o que aparecerá na tela? Nada. Tudo que o código acima faz é definir minha_primeira_funcao, mas ela só será executada quando for chamada pelo nome.
 
 # criando a função
-def minha_primeira_funcao():
-	print('Olá Mundo')
+``def minha_primeira_funcao():
+	print('Olá Mundo')``
 
 # o programa começa de verdade aqui:
-minha_primeira_funcao() # chamada para a função
+``minha_primeira_funcao() # chamada para a função``
 Quando chamamos uma função, a execução do programa principal é pausada, o fluxo de execução é desviado para a função, e ao final dela ele retornará para o ponto onde parou. Veja o exemplo abaixo:
 
 # criando a função
-def minha_primeira_funcao():
-	print('Olá Mundo')
+
+`` ``
 
 # o programa começa de verdade aqui:
 print('aaa')

@@ -30,7 +30,7 @@ print('bbb')
 O resultado na tela será:
 
 aaa
-Olá Mundo
+Olá 'Mundo
 bbb
 1.1.2. Escopo de uma variável
 Se você criar uma variável dentro de uma função, dizemos que o escopo dessa variável é a função onde ela foi criada. Isso significa que essa variável existe apenas dentro da função e apenas durante sua execução. Se o seu programa principal possui uma variável chamada "nome" e uma função também possui uma variável chamada "nome", elas não são a mesma variável. Qualquer alteração feita nessa variável dentro da função não irá afetar de maneira alguma a variável externa.

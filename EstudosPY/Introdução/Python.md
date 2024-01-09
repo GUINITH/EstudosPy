@@ -10,7 +10,7 @@ script do sistema.
 
 ### O que o Python pode fazer?
 
-*Python pode ser usado em um servidor para criar aplicativos web.
+* Python pode ser usado em um servidor para criar aplicativos web.
 * Python pode ser usado junto com software para criar fluxos de trabalho.
 * Python pode se conectar a sistemas de banco de dados. Ele também pode ler e modificar arquivos.
 * Python pode ser usado para lidar com big data e realizar matemática complexa.

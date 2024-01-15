@@ -30,8 +30,25 @@ print(type(Estudando)) #Bool
 print(type(Nao_estudando)) #Bool
 """
 # Obtenha dados do úsuario, crie 3 variáveis, uma para guardar o nome, altura e peso do úsuario e exiba no terminal
-name_user = str(input("Qual seu nome ?: "))
+""""name_user = str(input("Qual seu nome ?: "))
 user_age = int(input("Qual sua idade ?: "))
 user_peso = float(input("Qual seu peso ?:  "))
 
 print(f"Bem-vindo {name_user}, você tem {user_age} anos e pesa {user_peso} kg.")
+"""
+
+"""idade = int(input("Digite sua idade: "))
+
+while idade < 7:
+    print(f"Você é criança, sua idade é {idade} anos")
+
+print("Obrigado!")
+"""
+
+idade = int(input('Digite a idade: '))
+ 
+while idade < 0 or idade > 150:
+  print('Erro! Idade deve estar entre 0 e 150!')
+  idade = int(input('Digite a idade: '))
+ 
+print('Obrigado!')

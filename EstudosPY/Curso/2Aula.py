@@ -44,11 +44,17 @@ while idade < 7:
 
 print("Obrigado!")
 """
-
+"""
 idade = int(input('Digite a idade: '))
  
 while idade < 0 or idade > 150:
   print('Erro! Idade deve estar entre 0 e 150!')
   idade = int(input('Digite a idade: '))
  
-print('Obrigado!')
+print('Obrigado!')"""
+
+"""num = int(input("Digite um número maior que 10: "))
+while num > 10:
+    print(f"Número é: {num}")
+    break
+"""

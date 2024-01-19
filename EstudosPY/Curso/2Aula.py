@@ -58,3 +58,28 @@ while num > 10:
     print(f"Número é: {num}")
     break
 """
+#Criei uma lista e adicionei alguns indexs
+lista3 =['B', 2, 'G', 4, "W", 8, "X", -1, "H"]
+# Criei 3 listas vazias
+# 1 para armazenar strings
+# 2 Para armazenar números
+# 3 Para arazemar a lista completa
+lista_str = []
+lista_numeros = []
+result = []
+
+#Pecorrendo item dentro da lista
+for item in lista3:
+    #Verificando se no item de minha lista existe algum número inteiro e real
+    if type(item) in (int, float):
+    #Se tiver, quero que adicione esses itens a lista de números
+        lista_numeros.append(item)
+        lista_numeros.reverse()
+    #Verificando se no item de minha lista for igual a uma string
+    elif type(item) == str:
+    #Adicionando item do tipo string a lista de string
+        lista_str.append(item)
+    #Adicionando a soma das duas listas na lista result
+result = lista_str +lista_numeros
+#Printando o Resultado
+print(result)

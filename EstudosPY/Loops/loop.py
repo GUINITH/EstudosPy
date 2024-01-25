@@ -20,4 +20,8 @@ while contador <= numero_final:
     print(contador)
     contador+=1 # Retorna uma sequência de número de 1 a 45"""
 
-
+numero_final = 50
+contador = 1
+while contador >= numero_final:
+    print(contador)
+    contador +=1

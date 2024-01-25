@@ -42,3 +42,4 @@ elif operacao.lower() == "potencia":
        print(f" a potência é: {Potencia}")
 else:
     print("Digite uma operação correta!")
+

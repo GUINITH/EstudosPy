@@ -38,7 +38,7 @@ elif operacao.lower() == "dividir":
           print("Operação indefinida")
 elif operacao.lower() == "multiplicar":
     print(f" a multiplicação é: {multiplicao}")
-elif operacao.lower() == "potencia":
+elif operacao.lower() == "potência":
        print(f" a potência é: {Potencia}")
 else:
     print("Digite uma operação correta!")

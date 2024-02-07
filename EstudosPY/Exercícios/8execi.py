@@ -43,3 +43,5 @@ for numero in lista_mult2:
 lista_nomes = [ "Guilherme", "Rafael","Pedro", "Lucas"]
 exist_nome = "Rafael" in lista_nomes
 print(exist_nome)
+
+lista_num = print([num for num in range(1,11) if num % 2 == 0])

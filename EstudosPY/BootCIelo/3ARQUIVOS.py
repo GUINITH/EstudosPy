@@ -9,10 +9,11 @@ print(arquivo.read())
 arquivo.close()
 """
 
-arquivo = open("teste2.txt", "w", encoding="utf-8")
+"""arquivo = open("teste2.txt", "w", encoding="utf-8")
 
 #Escrever no arquivo:
 arquivo.write("Guilherme Felipe")
 
 #Ler arquivo:
 print(arquivo.read())
+arquivo.close()"""

@@ -47,3 +47,18 @@ dicio_clubs = {"nome1": "Flamengo",
 dicio_clubs["nome5"] =  "Real Madrid"
 dicio_clubs ["nome6"]= "Barcelona"
 print(dicio_clubs)
+
+#Pecorrendo dicionarios
+for club in dicio_clubs:
+    print(club)
+
+#verificando existência de uma chave:
+if "Palmeiras" in dicio_clubs:
+    dicio_clubs["nome8"].append("palmeiras")
+else:
+    dicio_clubs["nome8"] = ["Palmeiras"]
+print(dicio_clubs)
+
+#get
+dicio_clubs.get("Corinthians")
+    

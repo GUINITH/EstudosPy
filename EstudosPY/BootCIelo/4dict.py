@@ -62,3 +62,24 @@ print(dicio_clubs)
 #get
 dicio_clubs.get("Corinthians")
     
+nomes = [ "Rafael","Pedro","Marcia"]
+idades = [43,22,33]
+
+dicio_nomes =dict(zip(nomes, idades))
+#Verifica se existe uma chave no dicionário
+dicio_Gui = dicio_nomes.get("Guilherme")
+print(f'Existe, "Guilherme" no dicionário{dicio_nomes}: {dicio_Gui}')
+#SetDefault verifica se tiver um valor, se sim ele retorna chave e valor, se não ele adiciona ao dicionário.
+dicio_Gui = dicio_nomes.setdefault("Guilherme",24)
+print(f'Existe, "Guilherme" no dicionário{dicio_nomes}')
+
+#Função copy, copia um dicionário, para evitar duas ou mais dicionários referênciar o mesmo dicionário.
+dicio_alunos = dicio_nomes.copy()
+print(dicio_alunos)
+
+#Update: Serve para upar uma lista na outra;
+dicio_familia = {}
+dicio_familia.update(dicio_nomes)
+print(dicio_familia)
+
+"""print(dicio_familia.items())"""

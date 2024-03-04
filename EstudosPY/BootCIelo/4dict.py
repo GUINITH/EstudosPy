@@ -60,5 +60,6 @@ else:
 print(dicio_clubs)
 
 #get
-dicio_clubs.get("Corinthians")
-    
+print(f"Existe Corinthians: {dicio_clubs.get('Corinthians')}")
+print(dicio_clubs)
+#Setdefault

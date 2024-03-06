@@ -1,4 +1,4 @@
-jogador ={
+"""jogador ={
     "nome": "Zico",
     "idade": 76,
     "Nacionalidade": "Brasileiro",
@@ -216,4 +216,4 @@ valor = 0
 
 dicio = dict.fromkeys(chaves , valor)
 
-print(dicio)
+print(dicio)""""

@@ -3,13 +3,20 @@ import numpy as np
 vetor = np.array([1,2,3,4])
 print(vetor)
 
+vetor2 = np.array([5,6,7,8])
+print(vetor2)
+
 # Ver tipo de um ndarray
 # <class 'numpy.ndarray'
 print(type(vetor))
+print(type(vetor2))
 
 # Podemos criar uma tabela com duas dimenssões
 tabela = np.array([[2,3], [4,5]])
 print(tabela)
+
+table2 = np.array([[1,2], [3,4]])
+print(table2)
 
 #Matemáticamente como temos um objeto de 3 ou mais dimensões nós chamamos de tensor
 #dimenssões: [1,2], [3,3]

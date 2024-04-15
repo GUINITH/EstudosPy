@@ -1,5 +1,9 @@
 import numpy as np
 
+#cRIANDO Matrizes
+
+
+
 # Dimensões em matrizes 
 
 """

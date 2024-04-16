@@ -54,9 +54,52 @@ Note que ele retorna uma série.
 print(df.loc[[0,1]])
 
 '''
+  
         Municipios       Estados
 0       Rio De Janeiro     RJ
 1       São Paulo          SP
 
 Note que ao usa [], o resultado é um Pandas Dataframe
+'''
+
+# Indices Nomeados:
+
+'''
+- Com o argumento, você pode nomear seus próprios índices. Index
+'''
+# Adicione uma lista de nomes para dar um nome a cada linha:
+
+alunos = {
+    'Nomes': ['Gael', 'Tayssa', 'Renner'],
+    'Idades': [ 23, 30, 19] 
+}
+df_alunos = pd.DataFrame(alunos, index=['aluno1','aluno2', 'aluno3'])
+print(df_alunos)
+
+'''
+Saída:
+         Nomes  Idades      
+aluno1    Gael      23      
+aluno2  Tayssa      30      
+aluno3  Renner      19    
+
+'''
+
+# Localizar Índices Nomeados
+
+'''
+Use o índice nomeado no atríbuto para retornar a(s) linha(s) especificada(s). loc
+'''
+# retorne a 3 linha do seu dataframe:
+
+print(df_alunos.loc['aluno3'])
+
+'''
+saída:
+
+Nomes     Renner
+Idades        19
+Name: aluno3, dtype: object 
+
+Ele retorna uma série
 '''

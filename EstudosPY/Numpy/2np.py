@@ -76,3 +76,44 @@ Estes são frequentemente usados ​​para representar um tensor de 3ª ordem.
 listas = [[1,2,3], [4,5,6], [7,8,9]]
 arr_3D = np.array(listas)
 print(arr_3D)
+
+# Verofoque o número de dimensões?
+
+'''
+Numpy Arrays fornece o ndim atribute que retorna um número inteiro que nos informa quantas dimensões o array póssui.
+'''
+
+# Verfique quantas dimensões os arrays póssuem:
+
+a = np.array(30) # dimensão 0
+b = np.array([1,2,3,4,5,6]) # dimensão 1
+c = np.array([[1,2,3],[4,5,6]]) # duas dimensões
+d = np.array([[[1,2,3],[4,5,6]], [[1,2,3],[4,5,6]]]) # três dimensões
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+
+# Matrizes Dimensionais Superiores
+
+'''
+Uma matriz pode ter qualquer número de dimensões.
+
+Quando a matriz é criada, você pode definir o número de dimensões usando o ndmin argumento.
+
+'''
+
+# Criando um Array de 5 dimensões e verifique se ele possui 5 dimensões:
+
+arr = np.array([2,4,6,8], ndmin = 5)
+
+print(arr)
+print(f'Número de dimensões é:  {arr.ndim}')
+
+''' 
+
+Neste array a dimensão mais interna (5ª dim) possui 4 elementos, a 4ª dim possui 1 elemento que é o vetor, a 3ª dim possui 1 elemento que é a matriz com o vetor, a 2ª dim possui 1 elemento que é o array 3D e O primeiro dim possui 1 elemento que é um array 4D.
+
+
+''' 

@@ -19,3 +19,4 @@ print(arr1[1])
 
 # Obtenha o terceiro e quarto elemento da matriz e some-os:
 print(arr1[2] + arr1[3])
+

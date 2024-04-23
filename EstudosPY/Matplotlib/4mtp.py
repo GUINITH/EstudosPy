@@ -46,4 +46,4 @@ y = np.array([3,8,1,5,7])
 plt.plot(y)
 plt.show()
 
-# Os pontos x no exemplo acima são [o,1,2,3,4,5].
+# Os pontos x no exemplo acima são [0,1,2,3,4,5].

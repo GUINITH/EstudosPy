@@ -130,6 +130,25 @@ Pandas usa os métodos e para Calcular os respectivos valores para uma coluna es
 ''' 
 
 # Calcule a média e substitua quaisquer valores vazios por ela:
+''' 
 média = df_alunos['idades'].mean()
-df_alunos.fillna(média, inplace=True)
+df_alunos['idades'].fillna(média, inplace=True)
 print(df_alunos)
+
+''' 
+# Média = o valor médio(a soma de todos os valores dividido pelo número de valores)
+
+# Calcule a Mediana e substitua quaisquer valores vazios por ela:
+mediana = df_alunos['turma'].median()
+df_alunos['turma'].fillna(mediana, inplace=True)
+print(df_alunos)
+
+# Mediana =  O valor do meio, depois de classificar todos os valores em ordem crescente.
+
+# Calcule o Modo e substitua quaisquer valores vazios por ele:
+
+moda = df_alunos['idades'].mode()[4]
+df_alunos['idades'].fillna(moda, inplace=True)
+print(df_alunos)
+
+# O valor que aparece com mais frequência

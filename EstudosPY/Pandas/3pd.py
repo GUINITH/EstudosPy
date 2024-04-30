@@ -14,11 +14,11 @@ como um array bidimensional ou uma tabela com linhas e colunas.
 """
 
 #Crie um Dataframe simpes do Pandas:
-locaisRj = {
+locais = {
     'municipios': ['Rio de Janeiro', 'São Paulo', 'Belo Horizonte'],
     'Estados': [ 'RJ', 'SP', 'MG']
 }
-df = pd.DataFrame(locaisRj)
+df = pd.DataFrame(locais)
 print(df)
 """
 No DataFrame as chaves: 'municipios', 'Estados' viram as colunas e os valores de ambas viram as linhas, que são indexadas.
@@ -35,7 +35,7 @@ index   Municipios       Estados
 # Localizar Linha
 
 '''
-Como voc~e pode ver no resultados acima, o DataFrame é como uma tabela com linhas e colunas.
+Como você pode ver no resultados acima, o DataFrame é como uma tabela com linhas e colunas.
 Pandas usam o loc atributo para retornar uma ou mais linhas especificadas
 
 '''
@@ -65,7 +65,7 @@ Note que ao usa [], o resultado é um Pandas Dataframe
 # Indices Nomeados:
 
 '''
-- Com o argumento, você pode nomear seus próprios índices. Index
+- Com o index argumento, você pode nomear seus próprios índices. Index
 '''
 # Adicione uma lista de nomes para dar um nome a cada linha:
 
@@ -90,7 +90,7 @@ aluno3  Renner      19
 '''
 Use o índice nomeado no atríbuto para retornar a(s) linha(s) especificada(s). loc
 '''
-# retorne a 3 linha do seu dataframe:
+# retorne a terceira linha do seu dataframe:
 
 print(df_alunos.loc['aluno3'])
 

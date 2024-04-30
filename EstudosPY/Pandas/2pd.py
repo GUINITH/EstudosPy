@@ -72,7 +72,7 @@ use o index argumento e especifique apenas o intes que deseja incluir na Série
 
 """
 
-# Creie uma série usando apenas dados de "city1" e "city2"
+# Crie uma série usando apenas dados de "city1" e "city2"
 cidades = {'city1': 'Rio de Janeiro', 'city2': "São Paulo", 'city3': 'Minas Gerais'}
 city_serie = pd.Series(cidades, index=['city1', 'city2'])
 print(city_serie)

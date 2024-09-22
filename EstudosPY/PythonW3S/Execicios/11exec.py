@@ -2,8 +2,8 @@
 # Crie uma lista chamada `numeros_pares` que contenha todos os números pares de 1 a 20.
 # Imprima a lista resultante.
 
-#numeros_pares = list(range(2,21,2))
-#print(numeros_pares)
+numeros_pares = list(range(2,21,2))
+print(numeros_pares)
 
 
 # Exercício 2: Soma dos Elementos de uma Lista

@@ -25,8 +25,14 @@ print(printar_Lista)
 # o seu preço por quilo (como float). Adicione pelo menos três frutas ao dicionário.
 # Imprima o dicionário resultante.
 
-
-
+frutas = {
+    'fruta1': 'Maçã', 
+    'preço': 14.50,
+    'fruta2': 'Uva', 
+    'preço': 5.50,
+}
+frutas.update({'fruta3': 'Pera', 'preço': 43.00})
+print(frutas)
 # Exercício 4: Filtrando Números Maiores que 10
 # Crie uma função chamada `filtrar_maiores` que receba uma lista de números e retorne uma 
 # nova lista contendo apenas os números maiores que 10.
@@ -44,6 +50,18 @@ print(resultado)
 # Crie uma função chamada `contar_vogais` que receba uma string e retorne o número de 
 # vogais (a, e, i, o, u) na string.
 # Teste a função com a string "Python é incrível!".
+
+def contar_vogais(palavra: str):
+    vogais = ['aeiou']
+    contador = {}
+    palavra.lower()
+    for vogal in vogais:
+        if vogal in palavra:
+            contador[vogal] = palavra.count(vogal)
+    return len(contador)
+
+minha_palavra = 'aeiou'
+print(contar_vogais(minha_palavra))
 
 # Exercício 6: Verificação de Palíndromo
 # Crie uma função chamada `e_palindromo` que verifique se uma string é um palíndromo.

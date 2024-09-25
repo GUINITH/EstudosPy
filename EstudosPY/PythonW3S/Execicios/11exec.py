@@ -83,6 +83,15 @@ print(contar_vogais(minha_palavra))
 # strings e os valores são números. A função deve retornar a média dos valores.
 # Teste a função com o dicionário `{"a": 10, "b": 20, "c": 30}`.
 
+def media_de_valores(values: dict): 
+    total_values = sum(values.values())
+    compre_velues = len(values.values())
+    media_velues = total_values / compre_velues
+    return media_velues
+
+dic_values = {"a": 10, "b": 20, "c": 30}
+print('valor é:', media_de_valores(dic_values))
+
 # Exercício 10: Classificação de Idades
 # Crie uma função chamada `classificar_idade` que receba uma idade como parâmetro e retorne 
 # uma string que classifique a pessoa como "criança" (idade < 12), "adolescente" (12 <= idade < 18), 
@@ -92,15 +101,14 @@ print(contar_vogais(minha_palavra))
 
 def classificar_idade(idade):
     if idade < 12: 
-        print('Você é uma criânça')
+        return 'Você é uma criânça'
     elif 12 <= idade < 18:
-        print('você é um adolecente')
-    elif 18 <= idade < 65:
-        print('Adulto')
-    elif idade >=65: 
-        print('idoso')
+        return 'você é um adolecente'
+    elif 50 == idade < 65:
+        return 'você'
     else:
-        print('Você é muito idoso')
+        return 'Você é muito idoso'
+ 
 
 minha_idade = classificar_idade(70)
 print(minha_idade)

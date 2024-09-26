@@ -110,5 +110,5 @@ def classificar_idade(idade):
         return 'Você é muito idoso'
  
 
-minha_idade = classificar_idade(70)
+minha_idade = classificar_idade(40)
 print(minha_idade)

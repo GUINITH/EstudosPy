@@ -5,7 +5,8 @@
 numeros_pares = list(range(2,21,2))
 print(numeros_pares)
 
-
+minha_lista = list(range(1,11))
+print(minha_lista)
 # Exercício 2: Soma dos Elementos de uma Lista
 # Crie uma função chamada `soma_lista` que receba uma lista de números como parâmetro 
 # e retorne a soma de todos os elementos da lista.

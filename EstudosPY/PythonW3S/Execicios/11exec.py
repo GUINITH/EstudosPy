@@ -113,3 +113,10 @@ def classificar_idade(idade):
 
 minha_idade = classificar_idade(40)
 print(minha_idade)
+
+
+def calcular(num_one: int, num_two: int):
+    calcular = num_one + num_two 
+    return f'A Soma de {num_one} + {num_two} é: {calcular}'
+
+print(calcular(34,40))

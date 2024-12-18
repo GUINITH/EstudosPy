@@ -138,7 +138,23 @@ print(checar_num)
 
 # associação: 
 # in, 
-# not in
+# in not
+
+name_user = 'Manoel' 
+
+for nome in ['Pedro', 'Rafael', 'Guilherme']:
+    print(True)
+
+alunos = ['Pedro', 'Rafael', 'Guilherme']
+if 'Manoel' not in alunos: 
+    print('Ele nao e aluno')
+else: 
+    print('Ele é aluno!')
+
+
+
+
+
 
 
 

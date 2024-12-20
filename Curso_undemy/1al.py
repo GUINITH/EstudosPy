@@ -10,3 +10,6 @@ numeros = [1,2,3,4,5]
 for n in numeros:
     print(n)
 
+alunos = ['Fernanda', 'Miguel', 'Pedro', 'Fernanda']
+for aluno in alunos:
+    print(aluno)

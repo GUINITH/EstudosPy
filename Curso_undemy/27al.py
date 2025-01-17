@@ -1,6 +1,8 @@
 '''
 Imutaveis que vimos: str, int, float, bool
 
-Mutaveis que vimos: list, dict
-
 '''
+
+string = 'Guilherme Felipe'
+# outro-value = string 
+print(string.replace('Guilherme Felipe', 'Guilherme Felip'))

@@ -24,14 +24,13 @@ while contador <= 5:
 #continue
 """
 while contador <= 5:
-    print(contador)
+    contador +=1
     if contador == 3:
-        print("Pulei o 3 porque e maior que 3")
-        contador +=1
+        print("Pulei o 3")
         continue 
     else:
         contador ==4
         break
-
-
-"""    
+print(contador)    
+    
+""" 
